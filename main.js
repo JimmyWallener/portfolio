@@ -4,7 +4,7 @@ const navLinks = document.querySelectorAll('.nav-link');
 navLinks.forEach((navLink) => {
     navLink.addEventListener('click', (e) => {
         e.preventDefault();
-        console.log(e.target);
+        alert('You clicked a nav link! Good for you!');
     
     });
 });
