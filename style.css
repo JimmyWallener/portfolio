@@ -9,9 +9,46 @@ body {
     background-color: #f4f4f4;
 }
 
+main {
+    height: 100vh;
+}
+
 nav {
     background-color: #333;
+    display: flex;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+nav a:hover {
+    background-color: #555;
+    
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: auto;
+}
+
+.header-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
