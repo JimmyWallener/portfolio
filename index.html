@@ -3,24 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/styles.css" />
-    <title>Portfolio - Assigment</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Portfolio - Assignment</title>
   </head>
   <body>
-    <header>
-      <h4 id="nav-header">Wallener</h4>
-      <nav>
+    <header role="banner">
+      <h1 id="nav-header">Wallener</h1>
+      <nav aria-label="Main navigation">
         <ul id="nav-list">
           <li class="nav-item"><a href="/index.html">Home</a></li>
-          <li class="nav-item"><a href="/hobbies.html">Hobbies</a></li>
-          <li class="nav-item"><a href="/experience">Experience</a></li>
-          <li class="nav-item"><a href="/projects">Projects</a></li>
+          <li class="nav-item">
+            <a href="/pages/experience.html">My Experiences</a>
+          </li>
+          <li class="nav-item">
+            <a href="/pages/projects.html">Some Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="/pages/hobbies.html">A Few Hobbies</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main role="main" class="main-content">
       <section>
-        <h4>Welcome to my portfolio</h4>
+        <h2>Welcome to my portfolio</h2>
         <p>
           This is a simple portfolio website created as an assignment for the
           course "Web Development & UX" at Chas Academy.
@@ -28,16 +34,11 @@
       </section>
       <aside>
         <figure>
-          <img
-            src="https://picsum.photos/id/0/500/200"
-            alt="Laptop, coffee cup, cellphone, and notebook on a wooden table"
-            aria-placeholder="a placeholder image"
-          />
+          <img src="https://picsum.photos/id/0/500/200" alt="Workspace setup" />
         </figure>
       </aside>
-
       <article>
-        <h6>About me</h6>
+        <h2>About me</h2>
         <p>
           My name is Jimmy Wallener, a passionate junior developer with
           experience in both frontend and backend development. I am currently
@@ -50,7 +51,7 @@
         </p>
       </article>
       <section>
-        <h6>Contact</h6>
+        <h2>Contact</h2>
         <p>
           You can contact me by sending an email to
           <a href="mailto:jimmy.wallener@chasacademy.se"
@@ -59,7 +60,7 @@
         </p>
       </section>
     </main>
-    <footer>
+    <footer role="contentinfo">
       <p>&copy; 2021 Jimmy Wallener</p>
     </footer>
   </body>

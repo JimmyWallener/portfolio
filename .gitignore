@@ -1,2 +1,4 @@
-/assets
-/pages
+/css
+/scripts
+*.xml
+.idea
